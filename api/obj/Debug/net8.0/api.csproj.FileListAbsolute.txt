@@ -126,3 +126,4 @@ C:\Users\jtpg9\Documents\Academy\Level3\ToDoListApi\api\obj\Debug\net8.0\refint\
 C:\Users\jtpg9\Documents\Academy\Level3\ToDoListApi\api\obj\Debug\net8.0\api.pdb
 C:\Users\jtpg9\Documents\Academy\Level3\ToDoListApi\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Users\jtpg9\Documents\Academy\Level3\ToDoListApi\api\obj\Debug\net8.0\ref\api.dll
+C:\Users\jtpg9\Documents\Academy\Level3\ToDoListApi\api\obj\Debug\net8.0\api.sourcelink.json

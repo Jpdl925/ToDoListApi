@@ -14,13 +14,15 @@ namespace api.Migrations
                 name: "ListItems",
                 columns: table => new
                 {
-                    ItemNumber = table.Column<int>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    ListItem = table.Column<string>(type: "TEXT", nullable: true)
+                    ListItem = table.Column<string>(type: "TEXT", nullable: true),
+                    ListDescription = table.Column<string>(type: "TEXT", nullable: true),
+                    Completion = table.Column<bool>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ListItems", x => x.ItemNumber);
+                    table.PrimaryKey("PK_ListItems", x => x.Id);
                 });
         }
 

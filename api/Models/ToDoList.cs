@@ -8,10 +8,11 @@ namespace api.Models
 {
     public class ToDoList
     {
-            [Key]
-            public int ItemNumber { get; set; }
+            public int Id { get; set; }
 
             public string? ListItem { get; set; }
+            public string? ListDescription { get; set; }
+            public bool? Completion { get; set; }
 
 
     }
