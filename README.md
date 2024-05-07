@@ -33,6 +33,7 @@ By following these steps, you can create a ToDo application using ASP.NET Core W
 Git:
 https://github.com/Jpdl925/ToDoListApi
 <strong> Peer review -  <br>
+Tested out all the different components. The API worked as it should and I was able to add, edit, and delete to the API as needed. Good Job Julius!!
 
 
 
